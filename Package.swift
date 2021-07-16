@@ -29,7 +29,10 @@ let package = Package(
                 .headerSearchPath("nlm"),
                 .headerSearchPath("portmap"),
                 .define("HAVE_CONFIG_H", to: "1"),
-                .define("_U_", to: "__attribute__((unused))")
+                .define("_U_", to: "__attribute__((unused))"),
+                .define("HAVE_SOCKADDR_LEN", to: "1"),
+                .define("HAVE_SOCKADDR_STORAGE", to: "1"),
+                .define("HAVE_TALLOC_TEVENT", to: "1")
             ]),
         .testTarget(
             name: "nfsTests",
