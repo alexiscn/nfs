@@ -1,7 +1,7 @@
 # Prerequisites
 *.d
 .DS_Store
-.swiftp/m
+.swiftpm/
 # Object files
 *.o
 *.ko
