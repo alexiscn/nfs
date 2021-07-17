@@ -38,6 +38,7 @@
 #include "nfsc/libnfs.h"
 #include "nfsc/libnfs-raw.h"
 #include "nfsc/libnfs-zdr.h"
+#include "../mount/libnfs-raw-mount.h"
 #include "../nfs/libnfs-raw-nfs.h"
 #include "../nfs4/libnfs-raw-nfs4.h"
 
