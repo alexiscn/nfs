@@ -1,4 +1,4 @@
 # nfs
 [libnfs](https://github.com/sahlberg/libnfs) for Swift
 
-Not tested yet...
+You can integrate this libray using [NFSKit](https://github.com/alexiscn/NFSKit)
