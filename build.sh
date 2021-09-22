@@ -18,11 +18,16 @@ rm -rf nfs/win32
 rm -rf nfs/utils
 rm -rf nfs/include/win32
 rm -rf nfs/packaging
+rm -rf nfs/ps2_ee
+rm -rf nfs/rquota
 
 rm -f nfs/win32build.bat
 rm -f nfs/INSTALL
 rm -f nfs/bootstrap
 rm -f nfs/libnfs.pc.in
+rm -f nfs/CHANGELOG
+rm -f nfs/configure.ac
+rm -f nfs/COPYING
 
 
 cp ../config.h nfs/include/config.h
